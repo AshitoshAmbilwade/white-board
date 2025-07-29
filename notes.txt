@@ -1,0 +1,63 @@
+         Interactive WhiteBoard
+Features:
+1. Test Mode: Play with the WhiteBoard
+2. Realtime Mode: create a WhiteBoard and brainstorm
+3. collaborate mode: Save and Use => Backend as a service
+
+My tasks
+1. Authentication
+2. Improve frontend
+
+Concepts:
+1. React Setup
+2. React Router
+3. SDK VS API
+4. BAAS(Backend as a service)
+5. Vercel config
+
+plan the project
+
+test mode 
+user =====> Route:/, page: Test =======> TlDraw
+
+Realtime mode                          config/WhiteBoard
+user==> Route:/realtime, page: Realtime ================> TlDraw ==> sync server
+
+collaborate mode                           WhiteBoard
+user==> Route:/realtime, page: Realtime ================> TlDraw =====>(save/load <=> BAAS DB )
+
+
+API VS SDK
+API - Application Program Interface
+it's just way to communicate frontend with backend work as a middleware/ middleman
+
+SDK : 
+Software Development Kit - it's like a bundle
+
+it contains -
+             Features
+             libraries
+             documentations etc
+
+no duplication just pass me configuration i will provide you shameless experience
+
+
+
+here we need to use TlDraw SDK
+
+
+BAAS = Backend as a service
+firebase
+supabase
+appwrite
+
+
+react Router
+helps for navigation
+
+
+
+
+
+
+
